@@ -3,7 +3,7 @@ const myParser = require("body-parser");
 const app= express();
 //const f = require("middle");
 app.use(myParser.json());
-app.post('/mypath',(req,res)=>{
+app.post('',(req,res)=>{
 	const data = req.body;
 	console.log(data);
 	//console.log(data.Query);
